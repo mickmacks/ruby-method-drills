@@ -7,6 +7,16 @@
   # ignores case
   # returns the hash
 
+def letter_count
+
+counts = Hash.new 0
+
+words.each do |word|
+  counts[word] += 1
+end
+
+
+
 ## STRETCH ##
 #word_count
   # takes in a string
